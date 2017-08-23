@@ -41,11 +41,11 @@
     font-size: 60px;
 }
 
-.section:nth-child(odd) {
+.section:nth-child(even) {
     background-color: #3b57cc;
 }
 
-.section:nth-child(odd) {
+.section:nth-child(even) {
     color: white;
 }
 
@@ -54,6 +54,24 @@
     background-color: #3b57cc;
     color: white;
     border-radius: 20px;
+}
+
+.alliancesFormat {
+	display: flex;
+	justify-content: space-around;
+}
+
+.allianceImage {
+	width: 20%;
+}
+
+.allianceImage > img {
+	object-fit: contain;
+	max-width: 100%;
+}
+
+.allianceText {
+	width: 60%;
 }
 
 .objectives > .content{
