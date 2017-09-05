@@ -13,7 +13,7 @@
 	<img src="/public/img/logo_teambits.png" class="logo">
 <!-- #NAVBAR -->
 	<link rel="stylesheet" href="/public/css/navbar.css">
-	<script src="/js/navbar.js"></script>
+	<script src="/public/js/navbar.js"></script>
 	<div class="sidenav">
 		<div class="sidenavSubTitle">
 			<h3>Teambits</h3>
@@ -85,10 +85,10 @@
 			<div class="title">Últimas noticias</div>
 			<hr>
 			<ul>
-				<li>Desarrollo de aplicaciones</li>
-				<li>ERP FusiónPro</li>
-				<li>Nuevos Clientes</li>
-				<li>Programa Outsourcing</li>
+				<a href="/services/development"><li>Desarrollo de aplicaciones</li></a>
+				<a href="/products/erp"><li>ERP FusiónPro</li></a>
+				<a href="/services/training" class="nsr"><li>Capacitación</li></a>
+				<a href="/services/outsourcing"><li>Programa Outsourcing</li></a>
 			</ul>
 		</div>
 	</div>
@@ -100,20 +100,28 @@
 				<img src="https://image.prntscr.com/image/c73e498d140842a2b88cedc2a221a4f7.png" alt="">
 				<div class="noteTitle">ERP Fusión Pro</div>
 				<div class="noteContent">
-					FusiónPro es una herramienta para la planeación de recursos en todas las areas que compone una empresa...
+				Diseñado de forma Modular (contabilidad,
+cuentas por pagar, cuentas por pagar, inventarios, facturación electrónica, estados financieros, asistencia, nóminas). Cada módulo trabaja
+de forma independiente o conectado con otros.
 				</div>
 			</div>
 
 			<div class="note">
 				<img src="/public/img/b4c.jpeg" alt="">
 				<div class="noteTitle">Programa B4C</div>
-				<div class="noteContent">Entre sus principales ventajas están en ser un sistema web parametrizable de alto desempeño, independencia del usuario para realizar cambios...</div>
+				<div class="noteContent">Herramienta diseñada para darle a los Carriers
+de Telefonia celular la funcionalidad de
+tarifación, conciliación, facturación de CDR´s.</div>
 			</div>
 
 			<div class="note">
 				<img src="/public/img/dpl.jpeg" alt="">
 				<div class="noteTitle">DPL</div>
-				<div class="noteContent"></div>
+				<div class="noteContent">Herramienta que mejora la funcionalidad de un
+ETL tradicional (recibe información de diferentes
+fuentes, las transforma con reglas de negocio y
+las carga en un destino de base de datos o
+archivos).</div>
 			</div>
 		</div>
 	</div>
@@ -122,18 +130,17 @@
 		<div class="title">Referencias</div>
 		<div class="references">
 			<div class="reference">
-				<div class="refTitle">-"Gracias a Teambits, mi empresa ha crecido, reducido costos y posicioné mi marca"</div>
-				<div class="refAuthor">- El cliente</div>
+				<div class="refTitle">"Gracias a Teambits por el servicio brindado en el desarrollo de la
+aplicación , para empresas dedicadas a la publicidad digital, con
+ello hemos mejorado un 200% el tiempo de respuesta y la satisfacción de nuestros clientes y en consecuencia las ventas."</div>
+				<div class="refAuthor">- Héctor Diaz, Director de Spacio Gráfico</div>
 			</div>
 
 			<div class="reference">
-				<div class="refTitle">-"Gracias a Teambits, mi empresa ha crecido, reducido costos y posicioné mi marca"</div>
-				<div class="refAuthor">- El cliente</div>
-			</div>
-
-			<div class="reference">
-				<div class="refTitle">-"Gracias a Teambits, mi empresa ha crecido, reducido costos y posicioné mi marca"</div>
-				<div class="refAuthor">- El cliente</div>
+				<div class="refTitle">“Gracias a Teambits por el servicio brindado en Staffing, todo el
+personal que fue asignado al proyecto cumplía con lo esperado“ <br>
+- Roberto Vargas Fuentes, Director de Tecnología y Mejora de Procesos"</div>
+				<div class="refAuthor">- Pendulum Associates</div>
 			</div>
 		</div>
 	</div>
@@ -179,17 +186,21 @@
 			<div class="title">Atención a cliente</div>
 			<div class="content">
 				<p>
-					De Lunes a Viernes /De Lunes a Domingo <br>
-					Calle Montecito No. Exterior 11 No. Interior Pent House 4 Colonia Nápoles <br>
-					Municipio Benito Juárez Estado Ciudad de México México CP.03810 <br>
+					De Lunes a Viernes<br>
+					Calle Montecito No. 11<br> 
+					Pent House 4 Colonia Nápoles <br>
+					Municipio Benito Juárez, Ciudad de México<br>
+					CP.03810 <br>
 					<br>
-					Ing.Javier Rodríguez Morales <br>
+					<b>Ing.Javier Rodríguez Morales</b> <br>
 					Comercialización <br>
-					javier.rodriguez@teambits.com.mx <br>
-					Tel 01 55 5523 9501
+					javier.rodriguez@teambits.mx <br>
+					Tel: 01 55 5523 9501
 					<br><br>
-					Alfredo Torres <br>
-					alfredo.torres@teambits.mx <br><br>
+					<b>Lic. Alfredo Torres</b> <br>
+					Cuentas Estratégicas<br>
+					alfredo.torres@teambits.mx<br>
+					Tel: 01 55 5523 9501
 
 				</p>
 			</div>
@@ -201,7 +212,7 @@
 		<div class="menus">
 			<div class="contact">
 				<div class="contactLogo">
-					<img src="/public/img/logo_teambits.png">
+					<img src="/public/img/footLogo.png">
 				</div>
 			</div>
 
@@ -228,7 +239,7 @@
 				<div class="footerTitle">Productos</div>
 				<ul class="urls">
 					<li><a href="/products/b4c">B4C</a></li>
-					<li><a href="/products">DPL</a></li>
+					<li><a href="/products/dpl">DPL</a></li>
 					<li><a href="/products/erp">ERP FusionPro</a></li>
 				</ul>
 			</div>

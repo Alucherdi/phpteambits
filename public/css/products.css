@@ -18,6 +18,6 @@
 	color: white;
 }
 
-.productOptions > a:visited, .productOptions > a:hover, .productOptions > a:link, .productOptions > a:active {
+.productRef:visited, .productRef:hover, .productRef:link, .productRef:active, .productRef{
 	color: white;
 }

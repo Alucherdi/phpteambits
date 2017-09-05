@@ -120,15 +120,17 @@
 	margin-bottom: 30px;
 	padding: 15px 15px 15px 15px;
 	width: 30%;
-	height: 100px;
+	height: 180px;
 	background-color: #7282FF;
 	color: #f7f7f9;
 	display: flex;
+	flex-flow: wrap;
 	justify-content: space-between;
 }
 
 .refAuthor {
 	align-self: flex-end;
+	width: 90%;
 	font-style: italic;
 }
 
@@ -174,6 +176,10 @@
 	color: white;
 }
 
+.nsr {
+	color: white;
+}
+
 /* --------------------RESPONSIVE-------------------------- */
 
 
@@ -209,5 +215,13 @@
 	.customerService {
 		width: 100%;
 		padding-left: 0;
+	}
+
+	.refTitle {
+		width: 100%;
+	}
+
+	.refAuthor {
+		width: 100%;
 	}
 }
